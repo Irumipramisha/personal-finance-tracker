@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Finance Tracker</h1>
+        
+        <div class="summary-container">
+            <div class="card income">
+                <h3>Total Income</h3>
+                <p id="total-income">Rs. 0</p>
+            </div>
+            <div class="card expense">
+                <h3>Total Expense</h3>
+                <p id="total-expense">Rs. 0</p>
+            </div>
+            <div class="card balance">
+                <h3>Balance</h3>
+                <p id="balance">Rs. 0</p>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <input type="text" id="description" placeholder="Description (e.g. Salary, Food)">
+            <input type="text" id="amount" placeholder="Amount (Rs.)">
+            <select id="type">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <button id="add-btn">Add Transaction</button>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Amount</th>
+                        <th>Type</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="transaction-list">
+                    </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
