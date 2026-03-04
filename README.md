@@ -1,13 +1,13 @@
-# 💰 Personal Finance Tracker
+#  Personal Finance Tracker
 
 A lightweight, Full-Stack web application designed to track daily income and expenses. This project demonstrates a complete integration between a web frontend, a Java backend, and a MySQL database.
 
-## 🎥 Project Demo
+##  Project Demo
 *(https://www.linkedin.com/posts/activity-7434311600578273280-BRGo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFkT5TIBdWV0A9oOra0r7K0oOR9e93hAmT4)*
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 * **Add Transactions:** Input description, amount, and type (Income/Expense) which saves instantly to the database.
 * **Real-time UI Updates:** Total Income, Total Expense, and the Current Balance are calculated and displayed automatically.
 * **Data Persistence:** All records are stored in a MySQL database, ensuring data is not lost when the browser is closed.
@@ -15,14 +15,14 @@ A lightweight, Full-Stack web application designed to track daily income and exp
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Frontend:** HTML5, CSS3, JavaScript (Vanilla JS using Fetch API).
 * **Backend:** Java (using `com.sun.net.httpserver.HttpServer`).
 * **Database:** MySQL 8.0+.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 * **`/frontend`**:
   * `index.html` - The user interface.
   * `style.css` - Modern styling for the tracker.
@@ -33,7 +33,7 @@ A lightweight, Full-Stack web application designed to track daily income and exp
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### 1. Database Setup
 Create a database named `personal_finance_tracker` and run the following SQL command in MySQL Workbench:
